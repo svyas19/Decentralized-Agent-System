@@ -1,4 +1,3 @@
-# Decentralized-Agent-System
 # Ping-Pong-Agent
 
 This Agent System has 8 Classes : <br/>
@@ -29,6 +28,18 @@ Step 5) You can also check the agent running from agent security when it asks yo
 Step 6) If you create a Ping Agent, repeat the permission step from AgentSecurity (Step 4 & Step 5).<br/>
 
 
+
+
+
+**Bonus Features :**  <br/>
+Communication is done by TCP protocol. <br/>
+Instead of Just Ping Pong - Agents can transfer messages as per their requirement. <br/>
+File Transfer is made possible between users. <br/>
+Multiple Ping Agents can connect to One Pong Agent.  <br/>
+Agent Security can find all the agents running on the network and can also enable data transfer between them.  <br/>
+Agents can transfer user's system data such as OS information,  system name, file directory, port.  <br/>
+Integration with vagrant and deployment with ansible :- <br/>
+What I was able to understand and tried:- Flow of system :- Defined two VM configuration in .vagrant file, customized each VM , run shell commands in provision block which automatically installs ansible in primary machine, a shell script to execute jar file of ping-pong agent system, playbook for executing that shell script on remote hosts.<br/>
 
 **How to run** <br/>
 Prerequisites : Virtualbox & Vagrant <br/>
