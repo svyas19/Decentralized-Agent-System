@@ -1,4 +1,5 @@
-# Ping-Pong-Agent
+# Decenntralized Multi-Agent
+
 
 This Agent System has 8 Classes : <br/>
 1)Agent  <br/>
