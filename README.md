@@ -1,4 +1,4 @@
-# Decenntralized Multi-Agent
+# Decentralized Multi-Agent
 
 
 This Agent System has 8 Classes : <br/>
